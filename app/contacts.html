@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="logo" href="#">
+        <img class="logo__img" src="images/logo.png" alt="logo">
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="index.html">Home</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">About</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Services</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="catalog-list.html">Catalog</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">News</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link menu__list-link--active" href="contacts.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-nav">
+        <a class="user-nav__link user-nav__link-search" href="#">
+          <img class="user-nav__link-img" src="images/icons/search.svg" alt="search btn">
+        </a>
+        <a class="user-nav__link" href="#">
+          <img class="user-nav__link-img" src="images/icons/heart.svg" alt="heart btn">
+          <span class="user-nav__num">0</span>
+        </a>
+        <a class="user-nav__link" href="#">
+          <img class="user-nav__link-img" src="images/icons/cart.svg" alt="cart btn">
+          <span class="user-nav__num">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="top">
+    <div class="container__block">
+      <h2 class="title__top">Contact</h2>
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link breadcrumbs__link-home" href="index.html">Home</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="contacts.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- address -->
+
+  <section class="contacts">
+    <div class="container__block">
+      <div class="contacts__top">
+        <h5 class="contacts__title">Write Here</h5>
+        <h2 class="title">Get In Touch</h2>
+      </div>
+      <div class="contacts__items">
+        <div class="contacts__item">
+          <img class="contacts__img" src="images/icons/map-icon.svg" alt="address icon">
+          <h4 class="contacts__item-title">Address</h4>
+          <a class="contacts__adress" href="#">2416 Mapleview Drive Tampa, FL 33634
+          </a>
+        </div>
+
+        <div class="contacts__item contacts__item-email">
+          <img class="contacts__img" src="images/icons/mail.svg" alt="email icon">
+          <h4 class="contacts__item-title">Our Email</h4>
+          <a class="contacts__email" href="mailto:contact@website.com">Main Email : contact@website.com
+          </a>
+          <a class="contacts__email" href="mailto:info@mail.com">Inquiries : Info@mail.com
+          </a>
+        </div>
+       
+        <div class="contacts__item">
+          <img class="contacts__img" src="images/icons/phone.svg" alt="phone icon">
+          <h4 class="contacts__item-title">Our Phone</h4>
+          <a class="contacts__phone" href="tel:+0029129102320">Office Telephone: 0029129102320
+          </a>
+          <a class="contacts__phone" href="tel:+000232439493">Mobile : 000 2324 39493
+          </a>
+        </div>
+    
+      </div>
+
+      <div class="contacts__inner">
+        <div class="contacts__info">
+          <form class="contacts__form" action="#">
+            <div class="contact__form-box">
+              <input class="contacts__form-input" type="text" placeholder="NAME">
+              <input class="contacts__form-input contacts__form-input-email" type="text" placeholder="EMAIL">
+            </div>
+            <textarea class="contacts__form-textarea" placeholder="MESSAGE"></textarea>
+            <button class="contacts__form-btn" type="submit">SEND MESSAGE</button>
+          </form>
+          </div>
+          <div class="contacts__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d156483.37749388177!2d-95.4482505567039!3d29.926888271528618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b6b908d71dd9%3A0x31450cb8c4c7eeb5!2sTeamsters%20Local%20Union%20988!5e0!3m2!1sru!2sru!4v1655518882761!5m2!1sru!2sru"
+              width="500" height="335" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+<!-- map -->
+
+
+  <!-- blog -->
+
+<section class="blog">
+  <div class="container__block">
+    <div class="blog__top">
+      <h2 class="title title-blog">Our Insights & Articles</h2>
+      <a href="#" class="blog__link">View All</a>
+    </div>
+    <div class="blog__items">
+      <div class="blog__item">
+        <a class="blog__item-imglink" href="">
+          <img src="images/blog/1.jpg" alt="blog img">
+        </a>
+        <div class="blog__item-box">
+          <a class="blog__item-link" href="#">NEWS</a>
+          <div class="blog__item-text">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam</div>
+          <div class="blog__item-info">
+            <a class="blog__item-data" href="#">
+               28 JANUARY, 2022
+            </a>
+            <a class="blog__item-author" href="#">
+               BY ADMIN</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog__item">
+        <a class="blog__item-imglink" href="">
+          <img src="images/blog/2.jpg" alt="blog img">
+        </a>
+        <div class="blog__item-box">
+          <a class="blog__item-link" href="#">NEWS</a>
+          <div class="blog__item-text">Aonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore</div>
+          <div class="blog__item-info">
+            <a class="blog__item-data" href="#">
+               28 JANUARY, 2022
+            </a>
+            <a class="blog__item-author" href="#">
+               BY ADMIN</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog__item">
+        <a class="blog__item-imglink" href="">
+          <img src="images/blog/3.jpg" alt="blog img">
+        </a>
+        <div class="blog__item-box">
+          <a class="blog__item-link" href="#">NEWS</a>
+          <div class="blog__item-text">Rncididunt ut labore et dolore magna aliqua. Ut enim labore et dolore
+          </div>
+          <div class="blog__item-info">
+            <a class="blog__item-data" href="#">
+               28 JANUARY, 2022
+            </a>
+            <a class="blog__item-author" href="#">
+               BY ADMIN</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="partners">
+      <ul class="partners__list">
+        <li class="partners_item">
+          <img src="images/partners/peterson.png" alt="partners">
+        </li>
+        <li class="partners_item">
+          <img src="images/partners/kmn.png" alt="partners">
+        </li>
+        <li class="partners_item">
+          <img src="images/partners/chain.png" alt="partners">
+        </li>
+        <li class="partners_item">
+          <img src="images/partners/next.png" alt="partners">
+        </li>
+        <li class="partners_item">
+          <img src="images/partners/vintage.png" alt="partners">
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container__block">
+    <div class="footer-top">
+      <div class="footer-top__item footer-top__contact">
+        <a class="logo footer-top__logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo">
+        </a>
+        <a class="footer-top__adress" href="#">ADDRESS: 4772 Wines Lane Houston, TX 77032
+        </a>
+        <a class="footer-top__phone" href="tel:+8323475843">Telephone: +832-347-5843
+        </a>
+        <a class="footer-top__email" href="mailto:contact@Glee.com">Email: contact@Glee.com
+        </a>
+      </div>
+      <div class="footer-top__item footer-top__nav">
+        <h6 class="footer-top__title">Services</h6>
+        <ul class="footer-top__list">
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              About us
+            </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Return Policy
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Our Blog
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Contact Us
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Terms & Condition
+          </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-top__item footer-top__nav">
+        <h6 class="footer-top__title">Account</h6>
+        <ul class="footer-top__list">
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Your Account
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="#">
+              Checkout
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="login.html">
+              Login
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="register.html">
+              Register
+          </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-top__item footer-top__item-form">
+        <h6 class="footer-top__title">newsletter</h6>
+        <p class="footer-top__text">Subscribe by our newsletter and get
+        update protidin.
+      </p>
+      <form class="footer-top__form" action="#">
+        <input class="footer-top__form-input" type="email" placeholder="Email address" required>
+        <button class="footer-top__form-btn" type="submit">Subscribe</button>
+      </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom__copy">©2022 CopyRight Example. All rights reserved.</p>
+    
+    <div class="footer-bottom__item">
+      <ul class="footer-bottom__list">
+      <li class="footer-bottom__list-item"><a href="index.html" class="footer-bottom__list-link">Home</a></li>
+      <li class="footer-bottom__list-item"><a href="#" class="footer-bottom__list-link">About</a></li>
+      <li class="footer-bottom__list-item"><a href="#" class="footer-bottom__list-link">Blog</a></li>
+      <li class="footer-bottom__list-item"><a href="contacts.html" class="footer-bottom__list-link">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</footer>
+  
+  <script src="js/main.min.js"></script>
+</body>
+</html>

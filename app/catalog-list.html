@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="logo" href="index.html">
+        <img class="logo__img" src="images/logo.png" alt="logo">
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link menu__list-link--active" href="index.html">Home</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">About</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Services</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="catalog.html">Catalog</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">News</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="contacts.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-nav">
+        <a class="user-nav__link user-nav__link-search" href="#">
+          <img class="user-nav__link-img" src="images/icons/search.svg" alt="search btn">
+        </a>
+        <a class="user-nav__link" href="#">
+          <img class="user-nav__link-img" src="images/icons/heart.svg" alt="heart btn">
+          <span class="user-nav__num">0</span>
+        </a>
+        <a class="user-nav__link" href="#">
+          <img class="user-nav__link-img" src="images/icons/cart.svg" alt="cart btn">
+          <span class="user-nav__num">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="top">
+    <div class="container__block">
+      <h2 class="title__top">Product list 2</h2>
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link breadcrumbs__link-home" href="index.html">Home</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="catalog-list.html">Product list 2</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- catalog -->
+
+  <section class="shop">
+    <div class="container__block">
+      <div class="shop__inner">
+        <div class="shop__filters filter">
+          <div class="filter-search filter__item">
+            <h4 class="filter__title">Search</h4>
+            <form class="filter-search__form" action="#">
+              <input class="filter-search__input" type="text" placeholder="Search">
+              <button class="filter-search__btn" type="submit">
+                <img src="images/icons/search.svg" alt="search">
+              </button>
+            </form>
+          </div>
+
+          <div class="filter-category filter__item">
+            <h4 class="filter__title">CATEGORY</h4>
+            <div class="filter-category__link">
+              <button class="filter-category__btn">Chair</button>
+              <button class="filter-category__btn">Table</button>
+              <button class="filter-category__btn">Lamp</button>
+              <button class="filter-category__btn">Watch</button>
+              <button class="filter-category__btn">Clock</button>
+            </div>
+          </div>
+
+          <div class="filter__item filter-price">
+            <h4 class="filter__title">PRICE</h4>
+            <form class="filter-price__form" action="#">
+            <input class="filter-price__input" type="text">
+            <label class="filter-price__label">
+              <span>Price:
+                $<span class="filter-price__from"></span> -
+                $<span class="filter-price__to"></span> 
+              </span>
+            <button class="filter-price__btn" type="submit">FILTER</button>
+            </label>
+            </form>
+          </div>
+
+          <div class="filter__item filter-brand">
+            <h4 class="filter__title">BRAND</h4>
+            <form class="filter-brand__form" action="#">
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox" checked>
+                <div class="filter-brand__checkbox">
+                  <span>RFL</span>
+                  <span>(10)
+                  </span> 
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span>Brothers</span>
+                  <span>(21)</span>
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span>Regal</span>
+                    <span>(3)</span>
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span>Nadia</span>
+                  <span>(14)</span>
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span>Otobi</span>
+                  <span>(6)</span>
+                </div>
+              </label>
+            </form>
+          </div>
+
+          <div class="filter-popular filter__item">
+            <h4 class="filter__title">Popular Tags</h4>
+            <form class="filter-popular__form">
+              <label class="filter-popular__label">
+                <input class="filter-popular__input" type="checkbox">
+                <span class="filter-popular__checkbox">
+                 Chair
+                </span>
+              </label>
+              <label class="filter-popular__label">
+                <input class="filter-popular__input" type="checkbox">
+                <span class="filter-popular__checkbox">
+                  White
+                </span>
+              </label>
+              <label class="filter-popular__label">
+                <input class="filter-popular__input" type="checkbox">
+                <span class="filter-popular__checkbox">
+                  Retro
+                </span>
+              </label>
+              <label class="filter-popular__label">
+                <input class="filter-popular__input" type="checkbox">
+                <span class="filter-popular__checkbox">
+                  Wooden
+                </span>
+              </label>
+              <label class="filter-popular__label">
+                <input class="filter-popular__input" type="checkbox">
+                <span class="filter-popular__checkbox">
+                  Brothers
+                </span>
+              </label>
+            </form>
+          </div>
+        </div>
+
+        <div class="shop-content">
+          <div class="shop-content__filter">
+            <div class="shop-content__filter-buttons">
+              <span>View</span>
+              <button class="shop-content__filter-btn shop-content__filter-btn--active button-grid">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"
+                viewBox="0 0 18 18">
+                <path fill-rule="evenodd" fill="#a3bbc8"
+                  d="M1.9998779,5.749756 C1.9998779,5.749756 5.749878,5.749756 5.749878,5.749756 C5.749878,5.749756 5.749878,1.9997559 5.749878,1.9997559 C5.749878,1.9997559 1.9998779,1.9997559 1.9998779,1.9997559 C1.9998779,1.9997559 1.9998779,5.749756 1.9998779,5.749756 ZM7.624878,16.999634 C7.624878,16.999634 11.374878,16.999634 11.374878,16.999634 C11.374878,16.999634 11.374878,13.249634 11.374878,13.249634 C11.374878,13.249634 7.624878,13.249634 7.624878,13.249634 C7.624878,13.249634 7.624878,16.999634 7.624878,16.999634 ZM1.9998779,16.999634 C1.9998779,16.999634 5.749878,16.999634 5.749878,16.999634 C5.749878,16.999634 5.749878,13.249634 5.749878,13.249634 C5.749878,13.249634 1.9998779,13.249634 1.9998779,13.249634 C1.9998779,13.249634 1.9998779,16.999634 1.9998779,16.999634 ZM1.9998779,11.374573 C1.9998779,11.374573 5.749878,11.374573 5.749878,11.374573 C5.749878,11.374573 5.749878,7.624756 5.749878,7.624756 C5.749878,7.624756 1.9998779,7.624756 1.9998779,7.624756 C1.9998779,7.624756 1.9998779,11.374573 1.9998779,11.374573 ZM7.624878,11.374573 C7.624878,11.374573 11.374878,11.374573 11.374878,11.374573 C11.374878,11.374573 11.374878,7.624756 11.374878,7.624756 C11.374878,7.624756 7.624878,7.624756 7.624878,7.624756 C7.624878,7.624756 7.624878,11.374573 7.624878,11.374573 ZM13.249878,1.9997559 C13.249878,1.9997559 13.249878,5.749756 13.249878,5.749756 C13.249878,5.749756 16.999878,5.749756 16.999878,5.749756 C16.999878,5.749756 16.999878,1.9997559 16.999878,1.9997559 C16.999878,1.9997559 13.249878,1.9997559 13.249878,1.9997559 ZM7.624878,5.749756 C7.624878,5.749756 11.374878,5.749756 11.374878,5.749756 C11.374878,5.749756 11.374878,1.9997559 11.374878,1.9997559 C11.374878,1.9997559 7.624878,1.9997559 7.624878,1.9997559 C7.624878,1.9997559 7.624878,5.749756 7.624878,5.749756 ZM13.249878,11.374573 C13.249878,11.374573 16.999878,11.374573 16.999878,11.374573 C16.999878,11.374573 16.999878,7.624756 16.999878,7.624756 C16.999878,7.624756 13.249878,7.624756 13.249878,7.624756 C13.249878,7.624756 13.249878,11.374573 13.249878,11.374573 ZM13.249878,16.999634 C13.249878,16.999634 16.999878,16.999634 16.999878,16.999634 C16.999878,16.999634 16.999878,13.249634 16.999878,13.249634 C16.999878,13.249634 13.249878,13.249634 13.249878,13.249634 C13.249878,13.249634 13.249878,16.999634 13.249878,16.999634 Z" />
+              </svg>
+              </button>
+              <button class="shop-content__filter-btn button-list">
+                <svg width="22px" height="17px"
+                  viewBox="0 0 22 17">
+                  <path fill-rule="evenodd" fill="#a3bbc8"
+                    d="M1.0068359,1.0001831 C1.0068359,1.0001831 5.4294434,1.0001831 5.4294434,1.0001831 C5.4294434,1.0001831 5.4294434,5.171936 5.4294434,5.171936 C5.4294434,5.171936 1.0068359,5.171936 1.0068359,5.171936 C1.0068359,5.171936 1.0068359,1.0001831 1.0068359,1.0001831 ZM6.835022,1.0001831 C6.835022,1.0001831 20.993835,1.0001831 20.993835,1.0001831 C20.993835,1.0001831 20.993835,5.171936 20.993835,5.171936 C20.993835,5.171936 6.835022,5.171936 6.835022,5.171936 C6.835022,5.171936 6.835022,1.0001831 6.835022,1.0001831 ZM1.0068359,6.413452 C1.0068359,6.413452 5.4294434,6.413452 5.4294434,6.413452 C5.4294434,6.413452 5.4294434,10.585266 5.4294434,10.585266 C5.4294434,10.585266 1.0068359,10.585266 1.0068359,10.585266 C1.0068359,10.585266 1.0068359,6.413452 1.0068359,6.413452 ZM6.835022,6.413452 C6.835022,6.413452 20.993835,6.413452 20.993835,6.413452 C20.993835,6.413452 20.993835,10.585266 20.993835,10.585266 C20.993835,10.585266 6.835022,10.585266 6.835022,10.585266 C6.835022,10.585266 6.835022,6.413452 6.835022,6.413452 ZM1.0068359,11.826599 C1.0068359,11.826599 5.4294434,11.826599 5.4294434,11.826599 C5.4294434,11.826599 5.4294434,15.998352 5.4294434,15.998352 C5.4294434,15.998352 1.0068359,15.998352 1.0068359,15.998352 C1.0068359,15.998352 1.0068359,11.826599 1.0068359,11.826599 ZM6.835022,11.826599 C6.835022,11.826599 20.993835,11.826599 20.993835,11.826599 C20.993835,11.826599 20.993835,15.998352 20.993835,15.998352 C20.993835,15.998352 6.835022,15.998352 6.835022,15.998352 C6.835022,15.998352 6.835022,11.826599 6.835022,11.826599 Z" />
+                </svg>
+              </button>
+            </div>
+            <div class="shop-content__filter-selects">
+              <select class="shop-content__filter-sort select-style">
+                <option value="">Sort By Default</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+              </select>
+              <select class="shop-content__filter-show select-style">
+                <option value="">Show 9</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="shop-content__block">
+            <div class="shop-content__images">
+              <img src="images/product/armchair.png" alt="картинка">
+            </div>
+            <div class="shop-content__products">
+              <h2 class="shop-content__title">Wooden radio</h2>
+              <div class="star"></div>
+                <div class="shop-content__price">
+                  $23
+                </div>
+
+              <div class="shop-content__text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation</div>
+              <a class="shop-content__link" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="shop-content__block">
+            <div class="shop-content__images">
+              <img src="images/product/armchair-1.png" alt="картинка">
+            </div>
+            <div class="shop-content__products">
+              <h2 class="shop-content__title">Wooden chair</h2>
+              <div class="star" data-rateyo-rating="4.5"></div>
+              <div class="shop-content__price">
+                $23
+              </div>
+          
+              <div class="shop-content__text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation</div>
+              <a class="shop-content__link" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="shop-content__block">
+            <div class="shop-content__images">
+              <img src="images/product/chair.png" alt="картинка">
+            </div>
+            <div class="shop-content__products">
+              <h2 class="shop-content__title">Pendant lamp</h2>
+              <div class="star" data-rateyo-rating="3.4"></div>
+              <div class="shop-content__price">
+                $23
+              </div>
+          
+              <div class="shop-content__text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation</div>
+              <a class="shop-content__link" href="#">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="shop-content__block">
+            <div class="shop-content__images">
+              <img src="images/product/amchair-3.png" alt="картинка">
+            </div>
+            <div class="shop-content__products">
+              <h2 class="shop-content__title">Retro table</h2>
+              <div class="star" data-rateyo-rating="5"></div>
+              <div class="shop-content__price">
+                $23
+              </div>
+          
+              <div class="shop-content__text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation</div>
+              <a class="shop-content__link" href="#">Add to cart</a>
+            </div>
+          </div>
+          
+           
+          
+          <div class="pagination">
+            <div class="pagination__item">
+            <ul class="pagination__list">
+              <li class="pagination__item"><a href="#" class="pagination__link pagination__link--active">1</a></li>
+              <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+              <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
+            </ul>
+            <a class="pagination__next" href="#">Next</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container__block">
+  <div class="partners">
+    <ul class="partners__list">
+      <li class="partners_item">
+        <img src="images/partners/peterson.png" alt="partners">
+      </li>
+      <li class="partners_item">
+        <img src="images/partners/kmn.png" alt="partners">
+      </li>
+      <li class="partners_item">
+        <img src="images/partners/chain.png" alt="partners">
+      </li>
+      <li class="partners_item">
+        <img src="images/partners/next.png" alt="partners">
+      </li>
+      <li class="partners_item">
+        <img src="images/partners/vintage.png" alt="partners">
+      </li>
+    </ul>
+  </div>
+  </div>
+  
+  </section>
+</main>
+
+
+
+
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container__block">
+    <div class="footer-top">
+      <div class="footer-top__item footer-top__contact">
+        <a class="logo footer-top__logo" href="index.html">
+          <img class="logo__img" src="images/logo.png" alt="logo">
+        </a>
+        <a class="footer-top__adress" href="contacts.html">ADDRESS: 4772 Wines Lane Houston, TX 77032
+        </a>
+        <a class="footer-top__phone" href="tel:+8323475843">Telephone: +832-347-5843
+        </a>
+        <a class="footer-top__email" href="mailto:contact@Glee.com">Email: contact@Glee.com
+        </a>
+      </div>
+      <div class="footer-top__item footer-top__nav">
+        <h6 class="footer-top__title">Services</h6>
+        <ul class="footer-top__list">
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              About us
+            </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Return Policy
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Our Blog
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="contacts.html" class="footer-top__link">
+              Contact Us
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Terms & Condition
+          </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-top__item footer-top__nav">
+        <h6 class="footer-top__title">Account</h6>
+        <ul class="footer-top__list">
+          <li class="footer-top__item">
+            <a href="#" class="footer-top__link">
+              Your Account
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="#">
+              Checkout
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="login.html">
+              Login
+          </a>
+          </li>
+          <li class="footer-top__item">
+            <a class="footer-top__link" href="register.html">
+              Register
+          </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-top__item footer-top__item-form">
+        <h6 class="footer-top__title">newsletter</h6>
+        <p class="footer-top__text">Subscribe by our newsletter and get
+        update protidin.
+      </p>
+      <form class="footer-top__form" action="#">
+        <input class="footer-top__form-input" type="email" placeholder="Email address" required>
+        <button class="footer-top__form-btn" type="submit">Subscribe</button>
+      </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom__copy">©2022 CopyRight Example. All rights reserved.</p>
+    
+    <div class="footer-bottom__item">
+      <ul class="footer-bottom__list">
+      <li class="footer-bottom__list-item"><a href="index.html" class="footer-bottom__list-link">Home</a></li>
+      <li class="footer-bottom__list-item"><a href="#" class="footer-bottom__list-link">About</a></li>
+      <li class="footer-bottom__list-item"><a href="#" class="footer-bottom__list-link">Blog</a></li>
+      <li class="footer-bottom__list-item"><a href="contacts.html" class="footer-bottom__list-link">Contact</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</footer>
+  
+  <script src="js/main.min.js"></script>
+</body>
+</html>

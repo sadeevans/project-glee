@@ -1,0 +1,49 @@
+$accent: #191919;
+$default: #243f4d;
+$title: #243f4d;
+$bg: #fcd7b6;
+$alink: #262626;
+
+
+%dmsans-400 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+%dmsans-500 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+}
+
+%dmsans-700 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+%poppins-700 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  }
+
+%rubik-400 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+%rubik-500 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+%myriad-400{
+  font-family: 'MyriadPro', sans-serif;
+  font-weight: 400;
+  }
+
+%checkbox-hidden{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
